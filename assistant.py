@@ -17,7 +17,7 @@ engine = pyttsx3.init()
 def my_birthday():
     speak("How could I forget your birthday? It's on March 10.")
     today = datetime.date.today()
-    bdate = datetime.date(2021, 10, 12)
+    bdate = datetime.date(#inputdate)
     diff = bdate - today
     daydiff=str(diff.days)
     speak("There are " + daydiff + "days to it")
@@ -143,7 +143,7 @@ if __name__=="__main__":
             speak("Welcome");
         elif '1 second' in query:
             speak("Sure, take your time")
-        elif 'play the happy birthday song' in query:
+        elif 'play the birthday song' in query:
             speak("Playing it right away")
             wb.open("https://www.youtube.com/watch?v=_z-1fTlSDF0")
         elif 'joke' in query:
