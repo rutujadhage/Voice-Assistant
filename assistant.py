@@ -202,7 +202,7 @@ if __name__=="__main__":
             try:
                 speak("What message do you have?")
                 content = takeCommand()
-                to = "yashdhage20@gmail.com"
+                to = "#email_id"
                 speak("The email says:")
                 speak(content)
                 speak("Do I send the email?")
